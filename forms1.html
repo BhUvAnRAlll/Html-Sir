@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form action="https://www.youtube.com/results?" method="get" autocomplete="on">
+<label for="fname">Full Name:-</label>
+<input type="text" id="fname" placeholder="Enter your Full name" autofocus name="search_query">
+<br>
+
+<label for="email">Email-id</label>
+<input type="email" id="email" placeholder="Enter your Email id" >
+<br>
+
+<label for="pass">Password :-</label>
+<input type="password" id="pass" placeholder="Enter your password">
+<br>
+
+<label for="phno">Phone Number:-</label>
+<input type="tel" id="phno" placeholder="Enter your phone number" disabled>
+<!--disabled makes an input field completely inactive.-->
+<br>
+
+<label for="city">City:-</label>
+<input type="text" id="city" value="Tumkuru" readonly> <!--Value is used to set default value-->
+
+<!--readonly makes an input field non-editable, but the value is still visible and will be submitted.-->
+
+<input type="submit">
+
+        </form>
+    </main>
+</body>
+</html>
